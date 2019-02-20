@@ -17,7 +17,7 @@ namespace PadawansTask2
                
                 while (i < count)
                 {
-                    result += number + i * add;
+                    result += checked(number + i* add);
                     i++;
                 }
             }
