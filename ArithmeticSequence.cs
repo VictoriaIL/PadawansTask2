@@ -10,11 +10,11 @@ namespace PadawansTask2
             {
                 throw new ArgumentException();
             }
-
+            int result = 0;
             try
             {
                 int i = 0;
-                int result = 0;
+               
                 while (i < count)
                 {
                     result += number + i * add;
